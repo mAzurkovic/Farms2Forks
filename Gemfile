@@ -28,7 +28,6 @@ gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem 'materialize-sass'
 
 gem "font-awesome-rails"
-
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 
