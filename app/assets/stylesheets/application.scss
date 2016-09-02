@@ -291,7 +291,10 @@ html, body {
   background-size: cover;
 }
 #information .panel {
-  opacity: 0.85;
+  // opacity: 0.85;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
 }
 
 #google_map {
@@ -409,4 +412,5 @@ footer .glyphicon:hover {
   font-size: 250px;
   color: #a886bd;
   margin-bottom: -85px;
+  opacity: 1;
 }
