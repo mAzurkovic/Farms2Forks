@@ -248,6 +248,20 @@ html, body {
   background-size: cover;
 }
 
+/* additional sections */
+#food-ins {
+  background: url('https://hd.unsplash.com/photo-1417144800752-07cac61d4815') no-repeat center center fixed;
+  display: table;
+  height: 75%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 #header {
   background: url('https://hd.unsplash.com/photo-1432416623818-8bb2b6090320') no-repeat center center fixed;
   display: table;
@@ -304,6 +318,12 @@ html, body {
 footer {
   padding: 20px 0;
 }
+
+footer a {
+  color: #a886bd;
+  font-size: 16px;
+}
+
 footer .glyphicon {
   color: #333333;
   font-size: 60px;
