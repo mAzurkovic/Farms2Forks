@@ -50,6 +50,16 @@ Rails.application.configure do
   # when problems arise.
   config.log_level = :debug
 
+  config.paperclip_defaults = {
+    storage: :s3,
+    s3_credentials: {
+      bucket: ENV.fetch('farms2forks-assets'),
+      access_key_id: ENV.fetch('AKIAIJMKWEQY6L7NEXUA'),
+      secret_access_key: ENV.fetch(' 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'),
+      s3_region: ENV.fetch('oregon'),
+    }
+  }
+
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]
 
